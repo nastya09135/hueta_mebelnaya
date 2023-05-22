@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+
+}
+.wrapper_grid{
+    display: grid;
+   
+    max-width: 360px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tovar{
+  clip-path: url(../img/creslo_bel.jpg);
+ 
+}
+.img {
+   
+width: 346px;
+height: 346px;
+border-radius: 30px;
+}
+
+.block_tovar {
+    width: 346px;
+    height: 52px;
+    background: #3A3A3B;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -30px;
+    display: flex;
+}
+
+.subscribe {
+    width: 1920px;
+    height: 711px;
+    background: #D9D9D9;
+
+}
+
+.logo_ser {
+    background-image: url(../img/logo_ser.png);
+    width: 190px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+}
+
+.subscribe_text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 50px;
+    color: #3A3A3B;
+}
+
+.subscribe_info {
+    font-size: 28px;
+    color: #939191;
+    text-align: center;
+    margin-top: 15px;
+}
